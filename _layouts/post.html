@@ -23,7 +23,7 @@ layout: default
           {% when '11' %}listopadu
           {% when '12' %}prosince
         {% endcase %}
-{{ page.date | date: "%Y" }}
+        {{ page.date | date: "%Y" }}
       </time>
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
